@@ -15,7 +15,7 @@
 (str "hello, " "world")                 ; => hello, world
 (list 1 2)                              ; => (1 2)
 (hash-map :name "John")                 ; => {:name "John"}
-(hash-set 1 1 2 3)                      ; =? #{1 2 3}
+(hash-set 1 1 2 3)                      ; => #{1 2 3}
 
 ;; ------------------------------------------------------------
 ;; 2. Write a function that takes a number and adds 100 to it.
@@ -59,7 +59,7 @@
 (def body-part [{:name "head"   :size 10}
                 {:name "eyes-1" :size 1}
                 {:name "arms-1" :size 1}
-                {:name "legs-1" :size 1}]) ; <== we want ths align's body-part has one head, but has five eyes, arms, legs ...etc.
+                {:name "legs-1" :size 1}]) ; <= we want ths align's body-part has one head, but has five eyes, arms, legs ...etc.
 
 
 (declare make-parts)                    ; <= we declare make-parts here, and defined it later
