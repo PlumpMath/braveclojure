@@ -40,7 +40,7 @@
 ;; ------------------------------------------------------------
 ;; 4. Write a function, mapset, that works like map except the return value is a set:
 ;; (mapset inc [1 1 2 2])
-                                        ; ; => #{2 3}
+;; ; => #{2 3}
 
 ;; 1st step:
 (set (map inc [1 1 2 2]))
